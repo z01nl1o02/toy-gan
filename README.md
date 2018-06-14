@@ -7,6 +7,9 @@ DCGAN on MNIST
 源码来自 https://github.com/dbsheta/dcgan_face_generation
 此处只是略作修改,成为针对MNIST的DCGAN
 
+# 使用
+修改train.py中data_path变量指向jpg所在目录(子目录中jpg不算),然后运行下面的命令,训练中会调用Gnet生成100个图,保存在当前目录
+python train.py 
 
 # 实验结果
 训练集采用mnist的train部分,5w张图片, batch_size=100
