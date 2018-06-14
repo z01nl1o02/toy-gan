@@ -11,7 +11,7 @@ DCGAN on MNIST
 # 实验结果
 训练集采用mnist的train部分,5w张图片, batch_size=100
 
-初始G网路的输出
+初始G网路的输出   
 ![初始](https://github.com/z01nl1o02/toy-gan/blob/master/result/Gnet-output-%E5%88%9D%E5%A7%8B.jpg)     
 
 训练中间G网络的输出,已经可以看出一些眉目了    
